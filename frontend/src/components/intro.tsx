@@ -1,4 +1,6 @@
 import React from "react";
+import { IoLocationOutline } from "react-icons/io5";
+import { IconContext } from "react-icons";
 
 import introimg from "../../public/intro/intro_image.jpg";
 
@@ -30,7 +32,12 @@ function Intro():JSX.Element {
             <p className="text-gray-400 text-xl py-5" style={{
                 width:"80%"
             }}>{introdata.description}</p>
+            <div className="flex flex-row items-center space-x-2">
+            <IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
+                <IoLocationOutline />
+                </IconContext.Provider>
             <span className="text-white">{introdata.location}</span>
+            </div>
             <ul className="flex flex-row text-white space-x-3 py-10">
                 <li><a href={introdata.github}>Github</a></li>
                 <li><a href={introdata.linkedin}>Linkedin</a></li>
