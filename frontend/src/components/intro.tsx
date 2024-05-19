@@ -21,8 +21,8 @@ let introdata:introcontent = {
 
 function Intro():JSX.Element {
     return (
-        <div className="bg-gray-950 p-20 flex flex-row" style={{
-            height:"452px",
+        <div className="bg-gray-950 p-20 py-32 flex flex-row" style={{
+            height:"552px",
             width:"100%",
         }}>
             <div className="flex flex-col w-auto">
