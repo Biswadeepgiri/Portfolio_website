@@ -36,8 +36,6 @@ function AboutMe(prop:ProfileInfo):JSX.Element | undefined {
                     </div>
                     <p className="text-gray-300 py-3 text-xl">{profiledesc.conclusion}</p>
                 
-                
-                
             </div>
         </div>
     )

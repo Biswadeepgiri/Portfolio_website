@@ -3,12 +3,13 @@ import './App.css'
 import Navbar from './components/navbar';
 import Intro from './components/intro';
 import AboutMe from './components/aboutme';
+import Skills from './components/skills';
 type Message= {
   message: string
 };
 
 function App(): JSX.Element {
-  const [data, setData] = useState<string|null>(null);
+  const [data, setData] = useState<string | null>(null);
   const url:string = "http://localhost:3001";
 
   useEffect(()=>{
@@ -22,6 +23,7 @@ function App(): JSX.Element {
     <Navbar />
     <Intro />
     <AboutMe />
+    <Skills />
      <h1>Vite+React</h1>
      <div className='card'>
       <p>{!data ? "loading..." : data}</p>
