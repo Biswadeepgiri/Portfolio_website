@@ -4,10 +4,10 @@ import skills from "../assets/data/skillsdata";
 
 function Skills():JSX.Element {
     return (
-        <div className="bg-gray-800 h-auto w-auto p-20 flex flex-col space-x-24 items-center justify-center ">
+        <div className="bg-gray-950 h-auto w-auto p-20 flex flex-col space-x-12 items-center justify-center ">
             <span className="bg-gray-300 text-gray-900 text-xs font-medium  px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-gray-300">My Skills</span>
             <h1 className="text-gray-300 py-4 text-xl">The skills, tools and technologies I am really good at:</h1>
-            <div className="grid-cols-6 space-x-8 space-y-8 py-4 ">
+            <div className="grid-cols-6 space-x-8 space-y-8 py-4 justify-center">
             
 
     {/* <span class="w-full">Get started with our  Figma Design System</span>
@@ -17,10 +17,10 @@ function Skills():JSX.Element {
 
     {skills.map(function(i) {
         return (
-            <a href={i.link} className="inline-flex flex-row justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-800 hover:text-gray-900 hover:bg-gray-700 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white hover:scale-110">
+            <a href={i.link} className="inline-flex flex-col justify-center p-2 text-base text-center font-medium text-gray-500 rounded-lg bg-gray-950 hover:text-gray-900 hover:bg-gray-700 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white hover:scale-110">
     
-            <img src={i.imageurl} alt="image" className="w-20 h-20 me-0" viewBox="0 0 40 40"/>
-            <span>{i.title}</span>
+            <img src={i.imageurl} alt="image" className="w-20 h-20 me-0" viewBox="0 0 50 50"/>
+            <span className="text-white py-3">{i.title}</span>
 
             </a>
         )

@@ -10,7 +10,13 @@ import mongo_logo from "../../../public/skills/icon-mongodb.png";
 import tailwind_logo from "../../../public/skills/icon-tailwindcss.png";
 import figma_logo from "../../../public/skills/icon-figma.png";
 import git_logo from "../../../public/skills/icon-git.png";
-
+import mysql_logo from "../../../public/skills/mysql_icon.png";
+import firebase_logo from "../../../public/skills/firebase_icon.png";
+import cpp_logo from "../../../public/skills/c++_logo.png";
+import github_logo from "../../../public/skills/github_logo.png";
+import postman_logo from "../../../public/skills/postman_icon.png";
+import redux_logo from "../../../public/skills/redux_logo.png";
+import python_logo from "../../../public/skills/python_logo.jpg";
 
 type SkillsData = {
     imageurl:Object,
@@ -83,6 +89,41 @@ let skills : SkillsData[] = [
         link:"https://git-scm.com/",
         title:"Git",
     },
+    {
+        imageurl:firebase_logo,
+        link:"https://firebase.google.com/",
+        title:"Firebase"
+    },
+    {
+        imageurl:mysql_logo,
+        link:"https://www.mysql.com/",
+        title:"MYSQL",
+    },
+    {
+        imageurl:cpp_logo,
+        link:"https://cplusplus.com/",
+        title:"C++",
+    },
+    {
+        imageurl:github_logo,
+        link:"https://github.com/",
+        title:"Github",
+    },
+    {
+        imageurl:postman_logo,
+        link:"https://www.postman.com/",
+        title:"Postman",
+    },
+    {
+        imageurl:redux_logo,
+        link:"https://redux.js.org/",
+        title:"Redux",
+    },
+    {
+        imageurl:python_logo,
+        link:"https://www.python.org/",
+        title:"Python",
+    }
 ]
 
 
