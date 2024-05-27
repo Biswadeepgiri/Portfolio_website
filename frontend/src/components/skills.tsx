@@ -17,7 +17,7 @@ function Skills():JSX.Element {
 
     {skills.map(function(i) {
         return (
-            <a href={i.link} className="inline-flex flex-col justify-center p-2 text-base text-center font-medium text-gray-500 rounded-lg bg-gray-950 hover:text-gray-900 hover:bg-gray-700 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white hover:scale-110">
+            <a href={i.link} className="inline-flex flex-col justify-center p-2 text-base text-center font-medium text-gray-500 rounded-lg bg-gray-950 hover:text-gray-900 hover:bg-gray-700 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white hover:scale-110 duration-300">
     
             <img src={i.imageurl} alt="image" className="w-20 h-20 me-0" viewBox="0 0 50 50"/>
             <span className="text-white py-3">{i.title}</span>
