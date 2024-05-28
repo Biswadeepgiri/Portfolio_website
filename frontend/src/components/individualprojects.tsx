@@ -16,7 +16,7 @@ type Projects = {
 
 function AnotherComponent(prop:{project_photo:Object,project_title:string,project_description:string,project_link:string,project_tags:string[],project_github:string}):JSX.Element {
     return (
-        <div className="bg-gray-600 w-5/6 h-auto  rounded-2xl  space-x-5  transform-gpu grid grid-cols-2">
+        <div className="bg-gray-600 w-5/6 h-auto  rounded-2xl  space-x-5  transform-gpu grid grid-cols-2 my-5">
             <div className="p-10">
                 <img src={prop.project_photo}  className="h-80 w-102 hover:scale-105 duration-300" alt="project_phto" />
             </div>
