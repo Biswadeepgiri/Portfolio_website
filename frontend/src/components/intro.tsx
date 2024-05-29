@@ -2,7 +2,7 @@ import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
-import introimg from "../../public/intro/intro_image.jpg";
+import introimg from "../../public/intro/dev_image_profile.png";
 
 type introcontent = {
     title:string,
