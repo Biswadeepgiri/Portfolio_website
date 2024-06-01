@@ -7,6 +7,7 @@ import Experience from './components/experience';
 import Skills from './components/skills';
 import Projects from './components/projects';
 import Contact from './components/contact';
+import Footer from './components/footer';
 type Message= {
   message: string
 };
@@ -30,6 +31,7 @@ function App(): JSX.Element {
     <Experience />
     <Projects />
     <Contact />
+    <Footer />
      <h1>Vite+React</h1>
      <div className='card'>
       <p>{!data ? "loading..." : data}</p>

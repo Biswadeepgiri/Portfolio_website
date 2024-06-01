@@ -18,6 +18,7 @@ function AboutMe(prop:ProfileInfo):JSX.Element | undefined {
     return (
         <div className="bg-gray-900 h-auto w-auto p-20 flex flex-row space-x-24">
             
+            
             <div className="profile_image_container">
                 <img src={profile_image} alt="profile image" />
             </div>

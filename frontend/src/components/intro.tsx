@@ -38,9 +38,9 @@ function Intro():JSX.Element {
                 </IconContext.Provider>
             <span className="text-white">{introdata.location}</span>
             </div>
-            <ul className="flex flex-row text-white space-x-3 py-10">
-                <li><a href={introdata.github}>Github</a></li>
-                <li><a href={introdata.linkedin}>Linkedin</a></li>
+            <ul className="flex flex-row text-white space-x-3 py-10 ">
+                <li className="hover:bg-gray-600 hover:rounded-md px-3 hover:scale-110 duration-300 "><a href={introdata.github}>Github</a></li>
+                <li className="hover:bg-gray-600 hover:rounded-md px-3 hover:scale-110 duration-300 "><a href={introdata.linkedin}>Linkedin</a></li>
             </ul>
             </div>
             <div className="w-200px px-16">
