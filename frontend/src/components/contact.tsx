@@ -64,7 +64,7 @@ else {
 
 function Contact():JSX.Element { 
     return (
-        <div className="bg-gray-950 h-auto w-auto p-20 flex flex-col space-x-12 items-center justify-center space-y-6">
+        <div className="bg-gray-950 h-auto w-auto p-20 flex flex-col space-x-12 items-center justify-center space-y-6" id="contact">
 <span className="bg-gray-300 text-gray-900 text-xs font-medium  px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-gray-300">Reach Me Here</span>
 <h1 className="text-gray-300 py-4 text-2xl justify-center items-center align-center" style={{
     width:"700px"

@@ -4,7 +4,7 @@ import skills from "../assets/data/skillsdata";
 
 function Skills():JSX.Element {
     return (
-        <div className="bg-gray-950 h-auto w-auto p-20 flex flex-col space-x-12 items-center justify-center ">
+        <div className="bg-gray-950 h-auto w-auto p-20 flex flex-col space-x-12 items-center justify-center " id="skills">
             <span className="bg-gray-300 text-gray-900 text-xs font-medium  px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-gray-300">My Skills</span>
             <h1 className="text-gray-300 py-4 text-xl">The skills, tools and technologies I am really good at:</h1>
             <div className="grid-cols-6 space-x-8 space-y-8 py-4 justify-center">

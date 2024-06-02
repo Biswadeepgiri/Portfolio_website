@@ -7,22 +7,28 @@ type Navlink = {
 const navlinks: Navlink[] = [
     {   id:1,
         title:"About",
-        url:"/",
+        url:"#about",
+    },
+    ,
+    {
+        id:5,
+        title:"Skills",
+        url:"#skills",
     },
     {
         id:2,
         title:"Work",
-        url:"/work",
+        url:"#work",
     },
     {
         id:3,
-        title:"Testimonials",
-        url:"/testimonials",
+        title:"Projects",
+        url:"#projects",
     },
     {
         id:4,
         title:"Contact",
-        url:"/contact",
+        url:"#contact",
     }
 ];
 

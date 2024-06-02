@@ -2,6 +2,7 @@ import React from "react";
 import { useState,useEffect } from "react";
 import "../css/navbar.css";
 import navlinks from "../assets/data/navlinks";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
 
@@ -37,7 +38,12 @@ if(isopen===false){
            
             <ul className="text-white sm:flex flex-grow flex-row  px-10 justify-end">
             {navlinks.map(function(i) {
-                return <li key={i.id} className="px-10"><a href={i.url} className=" hover:bg-gray-300 hover:text-black hover:rounded-md px-4 py-1" >{i.title}</a></li>
+                return ( 
+                  <Router>
+
+                <li key={i.id} className="px-10"><a href={i.url} className=" hover:bg-gray-300 hover:text-black hover:rounded-md px-4 py-1" >{i.title}</a></li>
+                </Router>
+                )
             })}
             </ul>
             <button className="bg-gray-50 text-gray-900 rounded-md px-3 py-1 inline-flex items-center justify-end flex-wrap" >Download CV</button>

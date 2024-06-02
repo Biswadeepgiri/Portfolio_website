@@ -8,6 +8,10 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
+
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+
+
 type Message= {
   message: string
 };
@@ -26,16 +30,16 @@ function App(): JSX.Element {
     <>
     <Navbar />
     <Intro />
-    <AboutMe />
+   <AboutMe  />
     <Skills />
     <Experience />
     <Projects />
     <Contact />
     <Footer />
-     <h1>Vite+React</h1>
+     {/* <h1>Vite+React</h1>
      <div className='card'>
       <p>{!data ? "loading..." : data}</p>
-     </div>
+     </div> */}
     </>
   );
 }
