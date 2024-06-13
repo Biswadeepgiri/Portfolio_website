@@ -1,14 +1,14 @@
-import React from "react";
+// import React from "react";
 
 
 import experiencedata from "../assets/data/experiencedata";
 
-type experience= {
-    company_logo:object,
-    duration:string,
-    role:string,
-    work:string[],
-}
+// type experience= {
+//     company_logo:object,
+//     duration:string,
+//     role:string,
+//     work:string[],
+// }
 
 function AnotherComponent(prop: {company_logo:Object,duration:string,role:string,work:string[]}):JSX.Element {
     return (
@@ -31,7 +31,7 @@ function AnotherComponent(prop: {company_logo:Object,duration:string,role:string
     )
 }
 
-function IndividualExperience(prop:experience):JSX.Element {
+function IndividualExperience():JSX.Element {
     return (
         <>
             {experiencedata.map(function(i){

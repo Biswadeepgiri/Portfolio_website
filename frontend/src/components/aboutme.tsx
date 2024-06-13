@@ -1,20 +1,20 @@
-import React from "react";
-import { useState } from "react";
+// import React from "react";
+// import { useState } from "react";
 import profile_image from "../../public/about/profile_img.jpg";
 import profiledesc from "../assets/data/profiledata";
 import "../css/aboutme.css";
 
-type ProfileInfo = {
-    intro:string,
-    whyshouldbeconsidered:string,
-    conclusion:string,
-    skills: string[]
+// type ProfileInfo = {
+//     intro:string,
+//     whyshouldbeconsidered:string,
+//     conclusion:string,
+//     skills: string[]
 
-}
+// }
 
 let skillsprofile: string[] = profiledesc.skills;
 
-function AboutMe(prop:ProfileInfo):JSX.Element | undefined {
+function AboutMe():JSX.Element | undefined {
     return (
         <div className="bg-gray-900 h-auto w-auto p-20 flex flex-row space-x-24" id="about">
             

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import IndividualExperience from "./individualexperience";
 
 function Experience():JSX.Element {

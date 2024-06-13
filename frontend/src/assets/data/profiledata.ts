@@ -1,9 +1,9 @@
-type Skills = [
-    "Full-Stack Development",
-    "Frontend Development",
-    "Backend Development",
-    "Data Structures and Algorithms"
-];
+// type Skills = [
+//     "Full-Stack Development",
+//     "Frontend Development",
+//     "Backend Development",
+//     "Data Structures and Algorithms"
+// ];
 
 
 type ProfileInfo= {

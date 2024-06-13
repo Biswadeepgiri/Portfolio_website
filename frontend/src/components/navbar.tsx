@@ -1,9 +1,10 @@
-import React from "react";
-import { useState,useEffect } from "react";
+// import React from "react";
+import { useState} from "react";
+// import { useEffect } from "react";
 import "../css/navbar.css";
 import navlinks from "../assets/data/navlinks";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-
+import { BrowserRouter as Router} from 'react-router-dom';
+import current_cv from "../assets/downloadable/biswadeep_resume_latest_april.pdf";
 
 
 function Navbar():JSX.Element|undefined {
@@ -46,7 +47,10 @@ if(isopen===false){
                 )
             })}
             </ul>
-            <button className="bg-gray-50 text-gray-900 rounded-md px-3 py-1 inline-flex items-center justify-end flex-wrap" >Download CV</button>
+            <button className="bg-gray-50 text-gray-900 rounded-md px-3 py-1 inline-flex items-center justify-end flex-wrap" >
+              <a  href={current_cv} download="Biswadeep_giri_resume" >Download CV</a>
+
+              </button>
    
         </div>
         

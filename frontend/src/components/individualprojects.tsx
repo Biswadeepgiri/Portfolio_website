@@ -1,17 +1,17 @@
-import React from "react";
+// import React from "react";
 import project_data from "../assets/data/projectsdata";
 import { FiLink } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import { LuGithub } from "react-icons/lu";
 
-type Projects = {
-    project_photo:Object,
-    project_title:string,
-    project_description:string,
-    project_link:string,
-    project_tags: string[],
-    project_github:string,
-}
+// type Projects = {
+//     project_photo:Object,
+//     project_title:string,
+//     project_description:string,
+//     project_link:string,
+//     project_tags: string[],
+//     project_github:string,
+// }
 
 
 function AnotherComponent(prop:{project_photo:Object,project_title:string,project_description:string,project_link:string,project_tags:string[],project_github:string}):JSX.Element {
@@ -53,7 +53,7 @@ function AnotherComponent(prop:{project_photo:Object,project_title:string,projec
     )
 }
 
-function IndividualProject(prop:Projects):JSX.Element {
+function IndividualProject():JSX.Element {
     return (
         <>
         {project_data.map(function(i){

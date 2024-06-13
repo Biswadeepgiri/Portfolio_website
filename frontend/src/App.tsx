@@ -1,4 +1,5 @@
-import { useState,useEffect } from 'react'
+// import {useEffect } from 'react';
+// import{ useState } from 'react';
 import './App.css'
 import Navbar from './components/navbar';
 import Intro from './components/intro';
@@ -9,22 +10,22 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+// import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 
 
-type Message= {
-  message: string
-};
+// type Message= {
+//   message: string
+// };
 
 function App(): JSX.Element {
-  const [data, setData] = useState<string | null>(null);
-  const url:string = "http://localhost:3001";
+  // const [data, setData] = useState<string | null>(null);
+  // const url:string = "http://localhost:3001";
 
-  useEffect(()=>{
-    fetch(`${url}/api`)
-    .then((res) => res.json())
-    .then((data:Message) => setData(data.message));
-  },[]);
+  // useEffect(()=>{
+  //   fetch(`${url}/api`)
+  //   .then((res) => res.json())
+  //   .then((data:Message) => setData(data.message));
+  // },[]);
 
   return (
     <>
