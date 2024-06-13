@@ -14,7 +14,7 @@ import { LuGithub } from "react-icons/lu";
 // }
 
 
-function AnotherComponent(prop:{project_photo:Object,project_title:string,project_description:string,project_link:string,project_tags:string[],project_github:string}):JSX.Element {
+function AnotherComponent(prop:{project_photo:string,project_title:string,project_description:string,project_link:string,project_tags:string[],project_github:string}):JSX.Element {
     return (
         <div className="bg-gray-600 w-5/6 h-auto  rounded-2xl  space-x-5  transform-gpu grid grid-cols-2 my-5">
             <div className="p-10">

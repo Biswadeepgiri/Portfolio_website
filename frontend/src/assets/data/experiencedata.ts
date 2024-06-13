@@ -4,7 +4,7 @@ import support_logo from "../../../public/experience/support.png";
 
 
 type Experience = {
-    company_logo:Object,
+    company_logo:string,
     duration:string,
     role:string,
     work:string[],

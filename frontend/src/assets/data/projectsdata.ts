@@ -4,7 +4,7 @@ import apoorv24_photo from "../../../public/projects/apoorv2024.jpg";
 import recipewebsite_photo from "../../../public/projects/Recipewebsite.jpg";
 
 type Projects = {
-    project_photo:Object,
+    project_photo:string,
     project_title:string,
     project_description:string,
     project_link:string,

@@ -10,7 +10,7 @@ import experiencedata from "../assets/data/experiencedata";
 //     work:string[],
 // }
 
-function AnotherComponent(prop: {company_logo:Object,duration:string,role:string,work:string[]}):JSX.Element {
+function AnotherComponent(prop: {company_logo:string,duration:string,role:string,work:string[]}):JSX.Element {
     return (
         <div className="bg-gray-600 w-4/5 h-72 m-10 p-10 rounded-2xl space-x-5 flex flex-row hover:scale-[1.03] duration-300 transform-gpu" > 
         <img src={prop.company_logo} className="h-56 w-56" alt="company logo" />

@@ -19,7 +19,7 @@ import redux_logo from "../../../public/skills/redux_logo.png";
 import python_logo from "../../../public/skills/python_logo.jpg";
 
 type SkillsData = {
-    imageurl:Object,
+    imageurl:string,
     link:string,
     title:string,
 }

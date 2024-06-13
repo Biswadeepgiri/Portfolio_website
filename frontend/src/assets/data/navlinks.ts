@@ -1,4 +1,4 @@
-type Navlink = {
+interface Navlink {
     id:number,
     title:string,
     url:string,
@@ -9,7 +9,6 @@ const navlinks: Navlink[] = [
         title:"About",
         url:"#about",
     },
-    ,
     {
         id:5,
         title:"Skills",
