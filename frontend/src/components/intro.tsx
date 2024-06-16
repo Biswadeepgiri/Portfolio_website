@@ -4,6 +4,8 @@ import { IconContext } from "react-icons";
 
 import introimg from "../../public/intro/dev_image_profile.png";
 
+import Typewriter from "../components/Typewriter";
+
 type introcontent = {
     title:string,
     description:string,
@@ -14,7 +16,7 @@ type introcontent = {
 }
 
 let introdata:introcontent = {
-    title:"Hi, I am Biswadeep Giri",
+    title:"I am Biswadeep Giri",
     description:"I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.",
     location:"Ghaziabad, India",
     github:"https://github.com/Biswadeepgiri",
@@ -28,7 +30,8 @@ function Intro():JSX.Element {
             width:"100%",
         }}>
             <div className="flex flex-col w-auto">
-            <h1 className="text-white text-5xl">{introdata.title}</h1>
+            <h1 className="text-white text-5xl">Hi, <Typewriter text={introdata.title} delay={150} infinite={true} />
+            </h1>
             <p className="text-gray-400 text-xl py-5" style={{
                 width:"80%"
             }}>{introdata.description}</p>

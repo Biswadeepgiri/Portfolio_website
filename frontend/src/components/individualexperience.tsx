@@ -26,9 +26,12 @@ function AnotherComponent(prop: {company_logo:string,duration:string,role:string
                     )
                 })}
             </ol>
-            <p className="text-white text-xl">
+            { prop.workwebsite!==undefined &&
+            <p className="text-white text-xl my-3">
                 <a href={prop.workwebsite}>Website</a>
             </p>
+}
+
         </div>
         </div> 
     )
