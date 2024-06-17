@@ -4,6 +4,8 @@ import { FiLink } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import { LuGithub } from "react-icons/lu";
 
+// import {AnimatedOnScroll} from "react-animated-css-onscroll";
+
 // type Projects = {
 //     project_photo:Object,
 //     project_title:string,
@@ -58,7 +60,9 @@ function IndividualProject():JSX.Element {
         <>
         {project_data.map(function(i){
             return (
+               
                 <AnotherComponent project_photo={i.project_photo} project_title={i.project_title} project_description={i.project_description} project_link={i.project_link}  project_tags={i.project_tags} project_github={i.project_github} />
+                
             )
         })}
         </>  

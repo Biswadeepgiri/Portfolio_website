@@ -13,6 +13,7 @@ import Footer from './components/footer';
 // import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 
 
+// import {AnimatedOnScroll} from "react-animated-css-onscroll";
 // type Message= {
 //   message: string
 // };
@@ -31,12 +32,24 @@ function App(): JSX.Element {
     <>
     <Navbar />
     <Intro />
+    {/* <AnimatedOnScroll animationIn="bounceInRight"> */}
    <AboutMe  />
+   {/* </AnimatedOnScroll> */}
+   {/* <AnimatedOnScroll animationIn="bounceInLeft"> */}
     <Skills />
+    {/* </AnimatedOnScroll> */}
+    {/* <AnimatedOnScroll animationIn="bounceInRight"> */}
     <Experience />
+    {/* </AnimatedOnScroll> */}
+    {/* <AnimatedOnScroll animationIn="bounceInLeft"> */}
     <Projects />
+    {/* </AnimatedOnScroll> */}
+    {/* <AnimatedOnScroll animationIn="bounceInRight"> */}
     <Contact />
+    {/* </AnimatedOnScroll> */}
+    {/* <AnimatedOnScroll animationIn=""> */}
     <Footer />
+    {/* </AnimatedOnScroll> */}
      {/* <h1>Vite+React</h1>
      <div className='card'>
       <p>{!data ? "loading..." : data}</p>
