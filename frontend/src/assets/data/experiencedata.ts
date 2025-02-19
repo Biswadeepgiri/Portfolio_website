@@ -1,5 +1,6 @@
 import codealpha_logo from "../../../public/experience/codealpha.jpg";
 import support_logo from "../../../public/experience/support.png";
+import graviti_logo from "../../../public/experience/graviti_logo.png";
 
 
 
@@ -32,6 +33,18 @@ let experiencedata:Experience[] = [
             "Contributed to React Js project for digital internship, digital courses, digital marketing and app/web development services using React.js and Tailwind CSS.",
         ],
         workwebsite:"https://nexus-care-theta.vercel.app/",
+    },
+    {
+        company_logo:graviti_logo,
+        duration:"Jul 2024 - Dec 2024",
+        role:"Backend Developer Internship",
+        work: [
+            "Implemented role-based user invitations with hierarchical parent-child assignment and secure token-based access.",
+            "Integrated real-time trip tracking for chemical sector clients by pushing location data to Nicer Globe via REST APIs, enabling proactive hazard management.",
+            "Integrated Sarthi and Vahan APIs from ULIP (Ministry of Transportation & Logistics) for secure data retrieval, with a weekly cron job ensuring seamless vehicle document updates.",
+
+        ],
+        workwebsite: "https://www.graviti.in/"
     },
 ]
 
